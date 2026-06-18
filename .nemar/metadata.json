@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "HUP iEEG Epilepsy Dataset",
+  "description": "A de-identified intracranial EEG dataset from 58 patients with drug-resistant epilepsy treated at the Hospital of the University of Pennsylvania. The dataset includes electrophysiologic recordings from subdural grids, strips, depth electrodes (ECoG), and stereotactically-placed depth electrodes (SEEG), with electrode localizations in ICBM152 MNI space, clinically-determined seizure onset zones, and resection/ablation cavity segmentations. Both interictal and ictal periods are represented, providing a comprehensive resource for epilepsy research and surgical outcome prediction.",
+  "methods_description": "Intracranial EEG data were collected from patients undergoing surgical treatment for drug-resistant epilepsy using subdural grid, strip, and depth electrodes (ECoG) or stereotactically-placed depth electrodes (SEEG). Electrode localizations were determined in ICBM152 MNI space. The dataset was converted to BIDS format using MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,12 +18,30 @@
     "Sridevi Sarma": {},
     "Brian Litt": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004100.v1.1.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "drug-resistant epilepsy"
+    },
+    {
+      "term": "seizure onset zone"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "electrode localization"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004100",
       "identifier_type": "URL",
@@ -41,46 +61,27 @@
       "identifier": "10.1038/s41597-019-0105-7",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004100.v1.1.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "848.9 MB (30 files)"
+    "14.2 GB (320 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A de-identified intracranial EEG dataset from 58 patients with drug-resistant epilepsy who underwent surgical treatment at the Hospital of the University of Pennsylvania. The dataset includes electrophysiologic recordings from subdural grids, strips, depth electrodes (ECoG), and stereotactically-placed depth electrodes (SEEG), with both interictal and ictal periods represented. Electrode localizations in ICBM152 MNI space, clinically-determined seizure onset zones, and resection/ablation cavity segmentations are provided to support epilepsy research and surgical outcome prediction.",
-  "methods_description": "Intracranial EEG data were collected from patients undergoing surgical treatment for drug-resistant epilepsy using subdural grid, strip, and depth electrodes (ECoG) or stereotactically-placed depth electrodes (SEEG). Electrode localizations were registered to ICBM152 MNI space. Resection or ablation zones were rigorously determined by segmenting the resection cavity. Data were converted to BIDS format using MNE-BIDS.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "Drug Resistant Epilepsy",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
-    },
-    {
-      "term": "seizure onset zone"
-    },
-    {
-      "term": "electrocorticography"
-    },
-    {
-      "term": "surgical resection"
-    }
-  ],
-  "source_hash": "061639a8e6cf581d5165368c7218e99e16bb25e9936b58531b4fea0df53dbb44"
+  "source_hash": "2adbcd5508c48b85cdcd0c7a05c81e8394f0238c4299539a49e28755b075bcc5"
 }
