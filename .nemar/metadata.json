@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004100",
+  "source": "openneuro",
+  "source_id": "ds004100",
+  "title": "HUP iEEG Epilepsy Dataset",
+  "authors": {
+    "John M. Bernabei": {},
+    "Adam Li": {},
+    "Andrew Y. Revell": {},
+    "Rachel J. Smith": {},
+    "Kristin M. Gunnarsdottir": {},
+    "Ian Z. Ong": {},
+    "Kathryn A. Davis": {},
+    "Nishant Sinha": {},
+    "Sridevi Sarma": {},
+    "Brian Litt": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004100.v1.1.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.4.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ]
+}
