@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "HUP iEEG Epilepsy Dataset",
-  "description": "A de-identified intracranial EEG dataset from 58 patients with drug-resistant epilepsy treated at the Hospital of the University of Pennsylvania. The dataset includes electrophysiologic recordings from subdural grids, strips, depth electrodes (ECoG), and stereotactically-placed depth electrodes (SEEG), with electrode localizations in ICBM152 MNI space, clinically-determined seizure onset zones, and resection/ablation cavity segmentations. Both interictal and ictal periods are represented, providing a comprehensive resource for epilepsy research and surgical outcome prediction.",
+  "description": "A de-identified intracranial EEG dataset from 58 patients with drug-resistant epilepsy treated at the Hospital of the University of Pennsylvania. The dataset includes electrophysiological recordings from subdural grids, strips, depth electrodes (ECoG), and stereotactically-placed depth electrodes (SEEG), with electrode localizations in ICBM152 MNI space, clinically-determined seizure onset zones, and resection/ablation cavity segmentations. Both interictal and ictal periods are represented, providing a comprehensive resource for epilepsy research and surgical outcome prediction.",
   "methods_description": "Intracranial EEG data were collected from patients undergoing surgical treatment for drug-resistant epilepsy using subdural grid, strip, and depth electrodes (ECoG) or stereotactically-placed depth electrodes (SEEG). Electrode localizations were determined in ICBM152 MNI space. The dataset was converted to BIDS format using MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -23,19 +23,22 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "epilepsy"
+      "term": "ECoG"
     },
     {
-      "term": "drug-resistant epilepsy"
+      "term": "SEEG"
+    },
+    {
+      "term": "Drug Resistant Epilepsy",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
     },
     {
       "term": "seizure onset zone"
     },
     {
-      "term": "ECoG"
-    },
-    {
-      "term": "SEEG"
+      "term": "surgical resection"
     },
     {
       "term": "electrode localization"
