@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004100-blue)](https://doi.org/10.82901/nemar.on004100)
+
 <h1>HUP iEEG dataset</h1>
 
 This dataset was prepared for release as part of a manuscript by Bernabei & Li et al. (in preparation). A subset of the data has been featured in Kini & Bernabei et al., Brain (2019) [1], and Bernabei & Sinha et al., Brain (2022) [2]. 
