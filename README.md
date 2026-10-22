@@ -19,3 +19,9 @@ MNE-BIDS was used to convert the dataset into BIDS format.
 
 [4] Holdgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., … Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7
 
+
+## Electrode locations (19 Oct 2026)
+
+Coordsystem.json units m -> mm in 57 files. Evidence: The x/y/z values are 40-103; the coordsystem says fsaverage and the README says "electrode localizations in ICBM152 MNI space" - both millimetre spaces, so the unit is mm whichever label is right (the label itself is a question for the depositor). With "m", MNE read the positions 1000x too large. The same "m" is in every ds004100 S3 version (2022-09-21 to 2022-11-21).
+
+The evidence for this change is stated in this section. This dataset mirrors OpenNeuro; the same change belongs upstream.
